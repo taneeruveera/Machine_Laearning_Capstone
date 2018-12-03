@@ -52,8 +52,8 @@ y=data.variety
 
 y=labelencoder.fit_transform(y)
 data = pd.DataFrame(y)
-print(y.shape)
-data.to_csv("F:\winemag-data_Clean.csv")
+#print(y.shape)
+#data.to_csv("F:\winemag-data_Clean.csv")
 
 
 import category_encoders as ce
